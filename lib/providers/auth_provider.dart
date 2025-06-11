@@ -24,6 +24,8 @@
 //         options: Options(headers: {'Content-Type': 'application/json'}),
 //       );
 
+// ignore_for_file: unused_local_variable
+
 //       final token = response.data['token'];
 //       isLoading.value = false;
 //       Get.offNamed(AppRoutes.subscription);
@@ -39,7 +41,6 @@ import 'package:flutter/material.dart';
 
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
-import 'package:subscription_app/routes/app_routes.dart';
 
 class AuthProvider with ChangeNotifier {
   bool _isLoggedIn = false;
